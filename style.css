@@ -1,0 +1,1082 @@
+body{
+  margin: 0;
+}
+
+.navbar{
+  display: flex;
+  background-color:#D9D9D9;
+  width :100%;
+  /* height: 50px; */
+  justify-content: center;
+  font-family: poppins;
+  padding: 11px;
+}
+
+.navbar-content{
+  /* background-color: aqua; */
+  width: 119px;
+  /* height: 28px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.navbar-content:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.Title{
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  width: 374px;
+  height: 60px;
+}
+
+.Title-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+  margin-left: 453px;
+  margin-right: 453px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: grid;
+  grid-template-columns: 490px 500px;
+  column-gap: 28px;
+  font-family: poppins;
+  /* background-color: aqua; */
+  transition: all 0.5s ease;
+  height: 653px;
+  margin-top: 48px;
+}
+
+.container-right{
+  display: grid;
+  grid-template-rows: 392px 181px;
+  transition: all 0.5s ease;
+}
+
+.container-left{
+  display: grid;
+  grid-template-areas: "tentara tentara"
+                       "tukang fotografer"
+                       "pramugari fotografer";
+  gap: 15px;
+  transition: all 0.5s ease;                     
+}
+                      
+.atas{
+  display: grid;
+  grid-template-rows: 96px 96px 96px;
+  row-gap: 18px;
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  background-color: #F4F4F4;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+        
+.bawah{
+  /* display: grid;
+  grid-template-columns: 460px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  column-gap: 15px;
+  background-color: #F4F4F4;
+  border-radius: 10px;
+  margin-top: 32px;
+  transition: all 0.5s ease;
+  height: 190px;
+
+}
+
+.bawah-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+}
+.tentara{
+  grid-area: tentara;
+  background-color: #D5FFDD;
+  border-radius: 10px;
+  display : flex;
+  justify-content: center;
+  align-items: end;
+  padding: 0;
+  width: 490px;
+  height: 180px;
+  border-radius: 20;
+}
+
+.tentara-image{
+  width: 230px;
+  height: 230px;
+}
+
+.tentara-desc{
+  margin-top: 11px;
+  margin-bottom: 19px;
+  margin-right: 34px;
+}
+
+.tentara-desc-title{
+  width: 133px;
+  height: 47px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+}
+
+.tentara-desc-subtitle{
+  width: 240px;
+  height: 21px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  margin-top: 3px;
+}
+
+.tentara-desc-button{
+  width: 240px;
+  height: 37px;
+  border-radius:15px;
+  margin-top: 42px;
+  background-color: #399349;
+  border: none;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.tentara-desc-button:hover{
+  background-color: #1b4422;
+}
+
+.tukang{
+  grid-area: tukang;
+  background-color: #FFF4DC;
+  border-radius: 10px;
+  display : flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 235px;
+  height: 180px;
+}
+
+.tukang-image img{
+  width: 173.7px;
+  height: 170px;
+  z-index: 1;
+  margin-bottom: -65px;
+}
+
+.tukang-button{
+  width: 173px;
+  height: 37px;
+  border-radius: 15px;   
+  margin-bottom: 20px;
+  background-color: #E29A00;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+}
+
+.tukang-button:hover{
+  background-color: #926400;
+}
+
+.pramugari{
+  grid-area: pramugari;
+  background-color: #FFCED7;
+  border-radius: 10px;
+  border-radius: 10px;
+  display : flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 235px;
+  height: 180px;
+}
+
+.pramugari-image img{
+  width: 170px;
+  height: 170px;
+  margin-bottom: -65px;
+  z-index: 1;
+}
+
+.pramugari-button{
+  width: 173px;
+  height: 37px;
+  border-radius: 15px;   
+  margin-bottom: 20px;
+  background-color: #E29A00;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+}
+
+.pramugari-button:hover{
+  background-color: #966700;
+}
+
+.fotografer{
+  grid-area: fotografer;
+  background-color: #E2F2FF;
+  border-radius: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 230px;
+  height: 392px;
+}
+
+.fotografer-image{
+  width: 160px;
+  height: 160px;
+}
+
+.fotografer-title{
+  width: 133px;
+  height: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.fotografer-subtitle{
+  width: 133px;
+  height: 54px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;    
+}
+
+.fotografer-button{
+  width: 173px;
+  height: 37px;
+  border-radius:15px;
+  border: none;
+  background-color: #3279AF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+}
+
+.fotografer-button:hover{
+  background-color: #1d415d;
+}
+
+.dokter{
+  background-color: #FFFFFF;
+  border: 1px solid #D8D6C1;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 13px;
+}
+
+.dokter-image{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.dokter img{
+  width: 70px;
+  height: 70px;
+  margin-left: 16px;
+  margin-right: 6px;
+}
+
+.dokter-desc{
+  margin-top: 26px ;
+  margin-right: 182px ;
+}
+
+.dokter-desc-title{
+  width: 133px;
+  height: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.dokter-desc-button{
+  width: 149px;
+  height: 22px;
+  border-radius: 10px;
+  background-color: #D8D6C1;   
+  border: none;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+}
+
+.dokter-desc-button:hover{
+  background-color: #64635b; 
+}
+
+.pilot{
+  background-color: #FFFFFF;
+  border: 1px solid #D8D6C1;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 13px;
+}
+
+.pilot-image{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.pilot img{
+  width: 70px;
+  height: 70px;
+  margin-left: 16px;
+  margin-right: 6px;
+}
+
+.pilot-desc{
+  margin-top: 26px ;
+  margin-right: 182px ;
+}
+
+.pilot-desc-title{
+  width: 133px;
+  height: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.pilot-desc-button{
+  width: 149px;
+  height: 22px;
+  border-radius: 10px;
+  background-color: #D8D6C1;   
+  border: none;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+}
+
+.pilot-desc-button:hover{
+  background-color: #64635b; 
+}
+
+.ilmuan{
+  background-color: #FFFFFF;
+  border: 1px solid #D8D6C1;
+  display: flex;
+  border-radius: 15px;
+  align-items: flex-end;
+  padding-bottom: 13px;
+}
+
+.ilmuan img{
+  width: 70px;
+  height: 70px;
+  margin-left: 16px;
+  margin-right: 6px;
+}
+
+.ilmuan img{
+  width: 70px;
+  height: 70px;
+  margin-left: 16px;
+  margin-right: 6px;
+}
+
+.ilmuan-desc{
+  margin-top: 26px ;
+  margin-right: 182px ;
+}
+
+.ilmuan-desc-title{
+  width: 133px;
+  height: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.ilmuan-desc-button{
+  width: 149px;
+  height: 22px;
+  border-radius: 10px;
+  background-color: #D8D6C1;   
+  border: none;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+}
+
+.ilmuan-desc-button:hover{
+  background-color: #64635b; 
+}
+
+.pembalap{
+  background-color: transparent;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: flex-end;
+  width: 230px;
+  height: 120px;
+}
+
+.pembalap-image{
+  display: flex;
+  align-items: flex-end;
+}
+
+.pembalap-image img{
+  width: 120px;
+  height: 120px;
+}
+
+.pembalap-desc{
+  margin-left: 10px;
+}
+
+.pembalap-desc-title{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 9px;
+}
+
+.pembalap-desc-button{
+  width: 100px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: #D8D6C1;   
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  color: white;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+}
+
+.pembalap-desc-button:hover{
+  background-color: #747365;
+}
+
+.astronot{
+  background-color: transparent;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: flex-end;
+  width: 226px;
+  height: 120px;
+}
+
+.astronot-image{
+  display: flex;
+  align-items: flex-end;
+}
+
+.astronot-image img{
+  width: 120px;
+  height: 120px;
+}
+
+.astronot-desc{
+  margin-left: 10px;
+}
+
+.astronot-desc-title{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 9px;
+}
+
+.astronot-desc-button{
+  width: 100px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: #D8D6C1;   
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  color: white;
+  transition: 0.45s ease-in;
+  cursor: pointer;
+}
+
+.astronot-desc-button:hover{
+  background-color: #646358;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+@media only screen and (max-width: 425px) {
+  .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 1000px       ;
+  }
+  .container-left,
+  .container-right{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;    
+  }
+
+  .container-right{
+      margin-top: 15px;
+      margin-left: 0;
+  }
+
+  .atas, .bawah{
+      background-color: transparent;
+      width: 288.525px;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .bawah{
+      margin-top: 74px;
+      margin-bottom: 34px;
+  }   
+
+  .bawah-container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+  }
+
+  .Title{
+      font-family: Poppins;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: center;        
+  }
+
+  .Title-box{
+      margin-bottom: 39px;
+  }
+
+  body{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+  }
+
+  .navbar{
+      order: 2;
+      width:  100%;
+      position: fixed;
+      z-index:3;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0 29px 0;
+      bottom: 0;
+      /* display: none; */
+  }
+
+  .navbar-content{
+      font-family: Poppins;
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+
+  .tentara{
+      width: 289px;
+      height: 299px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 21px;
+  }
+
+  .tentara-image{
+      order: 0;
+      width: 230px;
+      height: 230px;
+      margin-top: -60px;
+      z-index: 1;
+  }
+  
+  .tentara-desc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      order: 0;
+      margin: 0;
+  }
+
+  .tentara-desc-button{
+      order: 1;
+      margin: 0;
+      width: 212.41px;
+      height: 45.43px;
+      position: relative;
+  }
+  .tentara-desc .tentara-desc-title{
+      order: 2;
+      margin: 0;
+      width: 133px;
+      height: 47px;
+  }
+  .tentara-desc .tentara-desc-subtitle{
+      order: 3;
+      margin: 0;
+      width: 169px;
+      height: 21px;
+      text-align: center;
+  }
+
+  .tukang{
+      width: 288.53px;
+      height: 221px;
+      position: relative;
+      padding-bottom: 10px;
+  }
+
+  .tukang-image img{
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      width: 213.26px;
+      height: 208.72px;
+  }
+
+  .tukang-button{
+      z-index: 1;
+  }
+
+  .pramugari{
+      width: 288.53px;
+      height: 221px;
+      position: relative;
+      padding-bottom: 10px;
+  }
+
+  .pramugari-image img{
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      width: 213.26px;
+      height: 208.72px;
+  }
+
+  .pramugari-button{
+      z-index: 1;
+      background-color: #FF5573;
+  }
+
+  .fotografer{
+      width: 289px;
+      height: 314px ; 
+      margin-top: 46.81px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .fotografer-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin-top: -80px; */
+  }
+
+  .fotografer-image img{
+      width: 230px;
+      height: 230px;
+  }
+
+  .fotografer-button{order: 1;}
+  .fotografer-title{order: 2;}
+  .fotografer-subtitle{
+      order: 3;
+      width: 169px;
+  }
+
+  .dokter{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      width: 288.53px;
+      height: 221px;  
+      position: relative;
+      padding-bottom: 10px;  
+      background-color: #E9E8E2        ;
+  }
+
+  .dokter-image img{
+      width: 213px;
+      height: 213px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 25px;
+      margin-top: 20px;
+  }
+
+  .dokter-desc{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: relative;
+  }
+
+  .dokter-desc-title{
+      display: none;
+  }
+
+  .dokter-desc-button{
+      z-index: 2;
+      width: 212.41px;
+      height: 45.43px;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+
+  .pilot{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      width: 288.53px;
+      height: 221px;
+      position: relative;
+      padding-bottom: 10px;   
+      background-color: #E9E8E2;
+  }
+
+  .pilot-image img{
+      width: 213px;
+      height: 213px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 25px;
+      margin-top: 20px;
+  }
+
+  .pilot-desc{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: relative;
+  }
+
+  .pilot-desc-title{
+      display: none;
+  }
+
+  .pilot-desc-button{
+      z-index: 2;
+      width: 212.41px;
+      height: 45.43px;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+
+  .ilmuan{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      width: 288.53px;
+      height: 221px;  
+      position: relative;
+      padding-bottom: 10px; 
+      background-color: #E9E8E2
+      ;
+  }
+
+  .ilmuan-image img{
+      width: 213px;
+      height: 213px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 40px;
+      margin-top: 20px;
+  }
+
+  .ilmuan-desc{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: relative;
+  }
+
+  .ilmuan-desc-title{
+      display: none;
+  }
+
+  .ilmuan-desc-button{
+      width: 212.41px;
+      height: 45.43px ;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+
+  .pembalap{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      width: 288.53px;
+      height: 221px;
+      background-color: #FFDBC5; 
+      position: relative;
+      padding-bottom: 10px; 
+  }
+
+  .pembalap-image img{
+      width: 213px;
+      height: 213px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 40px;
+      margin-top: 20px;
+  }
+
+  .pembalap-desc{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: relative;
+  }
+
+  .pembalap-desc-title{
+      display: none;
+  }
+
+  .pembalap-desc-button{
+      width: 212.41px;
+      height: 45.43px;
+      background-color: #E36415;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+
+  .astronot{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items:center;
+      width: 288.53px;
+      height: 221px;
+      background-color: #8FC5ED; 
+      position: relative;
+      padding-bottom: 10px;
+  }
+
+  .astronot-image img{
+      width: 213px;
+      height: 213px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 40px;
+      margin-top: 20px;
+  }
+
+  .astronot-desc{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: relative;
+  }
+
+  .astronot-desc-title{
+      display: none;
+  }
+
+  .astronot-desc-button{
+      width: 212.41px;
+      height: 45.43px;
+      background-color: #275E87;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+
+  .bawah-container{
+      gap:20px;
+  }
+
+  .container-right{
+      gap:60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+      width: 100%; 
+      max-width: 1018px;
+
+  }
+}
+.tentara, .tukang, .pramugari, .fotografer,
+.dokter, .pilot, .ilmuan, .pembalap, .astronot{
+  
+}
